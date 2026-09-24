@@ -1,0 +1,5 @@
+Random Forest Grid Search
+
+Best parameters: {'classifier__max_depth': 10, 'classifier__max_features': 'sqrt', 'classifier__n_estimators': 300}
+Best CV F1: 0.754390
+OOB score: 0.817159

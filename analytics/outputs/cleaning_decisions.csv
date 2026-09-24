@@ -1,0 +1,5 @@
+column,missing_percent,strategy
+deck,77.2166,Dropped column because missingness is greater than 30%
+age,19.8653,Median imputation because missingness is between 5% and 30%
+embarked,0.2245,Dropped rows because missingness < 5%
+embark_town,0.2245,Dropped rows because missingness < 5%

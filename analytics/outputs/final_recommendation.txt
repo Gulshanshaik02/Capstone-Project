@@ -1,0 +1,20 @@
+FINAL RECOMMENDATION
+
+1. The classification models should be compared using accuracy, precision,
+recall, F1, and ROC-AUC. F1 is particularly useful when both false positives
+and false negatives matter.
+
+2. The Random Forest was tuned with GridSearchCV and evaluated using its
+out-of-bag score, and the complete fitted preprocessing + Random Forest
+pipeline was saved as the final reusable classifier artifact.
+
+3. The class-imbalance experiment compared a baseline Random Forest,
+class_weight='balanced', and SMOTE applied only to the training data.
+The strongest test F1 among these strategies was produced by:
+class_weight=balanced with F1=0.7445.
+
+4. Fare prediction is a separate regression task. It should be evaluated
+using MAE, RMSE, R2, and Adjusted R2 rather than classification metrics.
+
+5. The fare residual diagnostic concluded:
+The residual spread changes with predicted fare, suggesting evidence of heteroscedasticity.

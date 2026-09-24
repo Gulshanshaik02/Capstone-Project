@@ -1,0 +1,26 @@
+MULTIVARIATE CHART INTERPRETATIONS
+
+1. Survival Rate by Passenger Class and Sex:
+This chart compares survival rates jointly across passenger class and sex.
+It shows that survival outcomes varied across combinations of class and sex,
+rather than being explained by only one variable.
+
+2. Fare by Passenger Class and Sex:
+Fare distributions differ across passenger classes, with higher classes
+generally showing higher fare values. The sex split also reveals variation
+within each passenger class.
+
+3. Age vs Fare by Survival and Sex:
+The scatter plot shows how age and fare are distributed together while
+separating observations by survival and sex. Fare values are concentrated
+at lower levels, while observations span a broad range of ages.
+
+4. Age Distribution by Class and Survival:
+Age distributions differ across passenger classes and survival groups.
+This visualization helps show the joint relationship between passenger
+class, age, and survival.
+
+5. Survival Rate by Family Size:
+Survival rates vary across family-size groups. Very small and larger family
+groups can display different survival patterns, showing that family size
+provides additional context beyond class and sex alone.
